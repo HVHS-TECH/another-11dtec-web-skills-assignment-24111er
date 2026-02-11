@@ -1,4 +1,38 @@
 
-body {
-    background-color: lightblue;
+html,body {
+    background-color: rgb(23, 7, 165);
+    margin:50px;
+    
+    ul{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1500px;
+    }
+    h3{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1500px;
+    }
+    h1{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1250px;
+      
+    }
+    p{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1250px;
+    }
+    h2{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1250px;
+    }
+    ol{
+      background-color:aliceblue;
+      border-radius:30dp;
+      margin-right:1250px;
+    }
   }
+  
