@@ -1,38 +1,47 @@
-
+html{
+  text-align:center;
+  background-color: rgb(23, 7, 165);
 html,body {
-    background-color: rgb(23, 7, 165);
+  background-color:aliceblue;
     margin:50px;
-    
+    text-align:center;
     ul{
       background-color:aliceblue;
       border-radius:30dp;
-      margin-right:1500px;
+      
     }
     h3{
       background-color:aliceblue;
       border-radius:30dp;
-      margin-right:1500px;
+     
     }
     h1{
       background-color:aliceblue;
       border-radius:30dp;
-      margin-right:1250px;
+    
       
     }
     p{
       background-color:aliceblue;
       border-radius:30dp;
-      margin-right:1250px;
+    
     }
     h2{
       background-color:aliceblue;
-      border-radius:30dp;
-      margin-right:1250px;
-    }
+      border-radius:30dp; }
+      
     ol{
       background-color:aliceblue;
       border-radius:30dp;
-      margin-right:1250px;
+      
     }
-  }
-  
+    nav{
+      background-color:aliceblue;
+      padding:20px;
+    
+    }
+    a{
+      padding:50px;
+    }
+  }  
+}
