@@ -1,35 +1,63 @@
 html{
-  text-align:center;
-  background-color: rgb(23, 7, 165);
+  
+  background-color:cadetblue;
 html,body {
   background-color:aliceblue;
     margin:50px;
-    text-align:center;
+     
+    a{
+      padding:50px;
+    }
+    nav{
+      text-align:center;
+      background-color:cornflowerblue;
+    }
+
+    header{
+      border-radius:25px;
+      background-color:darkgoldenrod;
+      padding:25px;
+      margin:50px;
+      margin-left:150px;
+      margin-right:150px;
+
+    }
+    .english{
+      text-align: right;
+      margin-left: 1000px;
+      text-rendering:darkgrey;
+
+    }
+
+    main{
+      padding:10px;
+      margin-left:200px;
+      margin-right:200px;
+      margin-top:-50px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:auto auto;
+      margin-left:200px;
+      margin-right:200px;
+    
+    }
+
+    
     ul{
       background-color:aliceblue;
       border-radius:30dp;
       
     }
-    h3{
-      background-color:aliceblue;
-      border-radius:30dp;
-     
-    }
-    h1{
-      background-color:aliceblue;
-      border-radius:30dp;
-    
-      
-    }
+
     p{
       background-color:aliceblue;
       border-radius:30dp;
+      text-align:center;
     
     }
-    h2{
-      background-color:aliceblue;
-      border-radius:30dp; }
-      
+   
     ol{
       background-color:aliceblue;
       border-radius:30dp;
@@ -40,8 +68,11 @@ html,body {
       padding:20px;
     
     }
-    a{
-      padding:50px;
+  
+
+    img{
+      padding:25px;
+      margin-left:25px;
     }
   }  
 }
