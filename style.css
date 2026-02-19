@@ -15,17 +15,20 @@ html,body {
 
     header{
       border-radius:25px;
-      background-color:darkgoldenrod;
+      background-color:rgb(94, 180, 255);
       padding:25px;
       margin:50px;
       margin-left:150px;
       margin-right:150px;
 
     }
+    .headgrid{
+      display:grid;
+      grid-template-columns:auto auto;
+    }
     .english{
       text-align: right;
-      margin-left: 1000px;
-      text-rendering:darkgrey;
+      text-decoration:darkgrey;
 
     }
 
@@ -38,25 +41,35 @@ html,body {
 
     .grid{
       display:grid;
-      grid-template-columns:auto auto;
-      margin-left:200px;
-      margin-right:200px;
-    
+      grid-template-columns:auto 5px auto;
+      justify-content:center;
+      column-gap:25px;
+    }
+    #line{
+      background-color: black;
     }
 
     
     ul{
       background-color:aliceblue;
-      border-radius:30dp;
+      border-radius:30px;
       
     }
 
     p{
-      background-color:aliceblue;
-      border-radius:30dp;
+      background-color:rgb(208, 232, 253);
+      border-radius:30px;
       text-align:center;
+      padding: 20px;
     
     }
+    hr{
+      height:5px;
+      background-color:black;
+      
+    }
+
+
    
     ol{
       background-color:aliceblue;
@@ -64,7 +77,7 @@ html,body {
       
     }
     nav{
-      background-color:aliceblue;
+      background-color:rgb(143, 194, 238);
       padding:20px;
     
     }
@@ -73,6 +86,7 @@ html,body {
     img{
       padding:25px;
       margin-left:25px;
+      
     }
   }  
 }
