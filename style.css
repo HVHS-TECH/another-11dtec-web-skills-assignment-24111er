@@ -14,6 +14,14 @@ html,body {
     }
 
     header{
+      text-align:center;
+      
+    }
+
+   
+    .headgrid{
+      display:grid;
+      grid-template-columns:auto auto;
       border-radius:25px;
       background-color:rgb(94, 180, 255);
       padding:25px;
@@ -22,13 +30,8 @@ html,body {
       margin-right:150px;
 
     }
-    .headgrid{
-      display:grid;
-      grid-template-columns:auto auto;
-    }
     .english{
       text-align: right;
-      text-decoration:darkgrey;
 
     }
 
@@ -49,12 +52,18 @@ html,body {
       background-color: black;
     }
 
-    
+    #list{
+      background-color: rgb(116, 190, 255);
+      border-radius:15px;
+
+    }
+
     ul{
-      background-color:aliceblue;
+      background-color:rgb(208, 232, 253);
       border-radius:30px;
       
     }
+
 
     p{
       background-color:rgb(208, 232, 253);
@@ -72,8 +81,8 @@ html,body {
 
    
     ol{
-      background-color:aliceblue;
-      border-radius:30dp;
+      background-color:rgb(208, 232, 253);
+      border-radius:30px;
       
     }
     nav{
